@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2),
   },
    toolbar:{
-    justifyContent: 'center'
+    justifyContent: 'center',
    },
 
   title: {
@@ -83,7 +83,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
- function Searchfood(props) {
+ function TopBar(props) {
   const classes = useStyles()
   return(
       <div className={classes.grow}>
@@ -136,4 +136,5 @@ const useStyles = makeStyles(theme => ({
 
     );
  }
-export default Searchfood;
+export default TopBar;
+
