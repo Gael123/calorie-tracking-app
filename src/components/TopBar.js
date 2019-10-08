@@ -14,7 +14,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 // import MoreIcon from '@material-ui/icons/MoreVert'
 // import { makeStyles } from '@material-ui/styles';
-
+// import DisplayDate from './DisplayDate';
 const useStyles = makeStyles(theme => ({
   grow: {
     flexGrow: 1,
@@ -86,6 +86,7 @@ const useStyles = makeStyles(theme => ({
  function TopBar(props) {
   const classes = useStyles()
   return(
+
       <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar className= {classes.toolbar} >
@@ -121,19 +122,13 @@ const useStyles = makeStyles(theme => ({
               <Badge badgeContent={17} color="secondary">
                 <NotificationsIcon />
               </Badge>
-            </IconButton>
-
+           </IconButton>
           </div>
           </Grid>
-
-
+          <div> </div>
         </Toolbar>
       </AppBar>
       </div>
-
-
-
-
     );
  }
 export default TopBar;
