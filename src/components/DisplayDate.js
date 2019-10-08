@@ -1,1 +1,12 @@
-DisplayDate.js
+// // import React from 'react';
+// import moment from 'react-moment'
+
+//  function DisplayDate(){
+//   const today = moment().endOf('day')
+//   const tomorrow = moment().add(1, 'day').endOf('day')
+//   const date = {date: new Date()}
+// if (date < today) return 'today'
+// if (date < tomorrow) return 'tomorrow'
+// return 'later'
+// }
+// export default DisplayDate;
